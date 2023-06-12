@@ -1,0 +1,20 @@
+Question: Where to find the Identity and Access Management (IAM) Views
+Answer: Application and User Management Work Center > User And Access Management
+Question: What is Identity and Access Management (IAM)
+Answer: Identity and Access Management means a combination of employee records, business users, business roles and access restrictions where you can customize and control users' access to your solution
+Question: How to properly update the access rights of a business user
+Answer: Once you made the required changes to a business user, you will need to go to Business Users view and click the Update Access Rights button, then select option Update All Users. This way you are ensuring the update background job is triggered.
+Question: How to unlock or lock a business user
+Answer: Once you find the specific business user, you need to click the Edit button, then select the Attributes option. A new window will show up and under the User Data section, you will be able to check or uncheck the User Locked box.
+Question: How to generate a new password for a business user
+Answer: To generate a new password for a business user, you need to click the Edit button and then Attributes. Under the Actions button, there will be the option to Generate Password.
+Question: Is it possible to set access restrictions for attachments
+Answer: Access restrictions on attachments are currently not supported.
+Question: Is it possible to restrict report views based on employees
+Answer: Reports can only be restricted based on the work center assigned in the report.
+Question: check when a specific business user's password expires
+Answer: Currently, there is no possibility to check this in the UI
+Question: User is getting locked frequently
+Answer: The user is getting locked by the kernel after it is unlocked because of failed login attempts with incorrect password.
+Question: change the Time Zone of a Technical User
+Answer: It is not possible to change the time zone of Technical Users. The timestamp of a technical user is always stored in UTC and not based on the user time zone. Whenever this data is accessed via any UI then the same will be converted based on the user time zone.

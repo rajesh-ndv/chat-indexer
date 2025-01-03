@@ -12,8 +12,8 @@ index = None
 def load_query_engine():
     global query_engine, index
     if query_engine is None:
-        openai.api_key = "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"
-        os.environ["OPENAI_API_KEY"] = "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"
+        openai.api_key = "magpie_secret"
+        os.environ["OPENAI_API_KEY"] = "secret_mapgie"
         # rebuild storage context
         storage_context = StorageContext.from_defaults(persist_dir='./storage')
         # load index
